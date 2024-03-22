@@ -25,7 +25,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to='/search'
+              to='/recipe'
               className={`menu-item ${activeMenu === 'search' ? 'active' : ''}`}
               onMouseEnter={() => handleMenuClick('search')}
             >

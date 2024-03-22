@@ -1,6 +1,7 @@
 import React from "react";
 import Bg from "../assets/BG.png";
 import Navbar from "../components/Navbar";
+import Recipes from '../components/Layout'
 import Burger from "../assets/burger.png";
 import Eat from "../assets/eat.png";
 import Recipe from "../assets/recipe.png";
@@ -79,7 +80,7 @@ const Home = () => {
           </div>
           <div className=" flex justify-center pt-3">
               <a
-                href="https://environmental-conscience.com/fast-food-pros-cons/"
+                href="/recipe"
                 target="_blank"
                 className="py-3 px-3 bg-gradient-to-t from-pink-500 via-red-500 to-yellow-500 rounded-lg cursor-pointer font-semibold text-white hover:from-green-400 hover:to-green-200 hover:text-black"
               >
