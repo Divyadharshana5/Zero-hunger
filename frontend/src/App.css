@@ -1,0 +1,21 @@
+.menu-item {
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-item.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #000; /* Change this to your desired color */
+  transition: all 0.3s ease;
+}
+
+.menu-item:hover::after {
+  width: 80%; /* Adjust the underline width as needed */
+}
+
+
