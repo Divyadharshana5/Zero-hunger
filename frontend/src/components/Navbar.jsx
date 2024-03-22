@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='bg-transparent top-0 z-50 w-full fixed backdrop-filter backdrop-blur-lg bg-opacity-20 shadow-2xl'>
       <div className="flex items-center p-3 text-xl justify-between font-mono">
-        <Link to='/'>Zero-hunger</Link>
+        <Link to='/'>Nutrichoiccccce</Link>
         <ul className='flex justify-center space-x-6'>
           <li>
             <Link
@@ -25,11 +25,11 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to='/donate'
-              className={`menu-item ${activeMenu === 'donate' ? 'active' : ''}`}
-              onMouseEnter={() => handleMenuClick('donate')}
+              to='/search'
+              className={`menu-item ${activeMenu === 'search' ? 'active' : ''}`}
+              onMouseEnter={() => handleMenuClick('search')}
             >
-              Donate
+              Search
             </Link>
           </li>
           <li>
